@@ -1,0 +1,22 @@
+/* Variables globales y estilos base */
+:root {
+    --color-primary: #025940;
+    --color-secondary: #F2911B;
+    --color-accent: #FDC906;
+    --color-beige: #e9d192;
+    --color-red: #BF0F13;
+    --color-black: #000000;
+
+    --font-headline: 'Archivo Black', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+}
+
+/* Estilos base del body */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-beige);
+    color: var(--color-black);
+    font-family: var(--font-body);
+    scroll-behavior: smooth;
+}
