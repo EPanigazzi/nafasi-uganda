@@ -5,9 +5,9 @@ function App() {
 	return (
 		<>
 			<Navbar />
-			<main style={{ paddingTop: "80px" }}>
-				{/* Tu contenido debajo del navbar */}
-			</main>
+			<div className="bg-primary text-white font-headline p-4 text-xl">
+				¡Tailwind está funcionando con estilos personalizados! 🚀
+			</div>
 		</>
 	);
 }
